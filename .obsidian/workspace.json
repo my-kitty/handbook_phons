@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "4783ed66dab02d02",
+    "type": "split",
+    "children": [
+      {
+        "id": "93dd3de64433863d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f79ed71d746c6d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "handbook/note_01.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "f8f20554a0266e4c",
+        "type": "split",
+        "children": [
+          {
+            "id": "ea141d4f03addfd4",
+            "type": "tabs",
+            "dimension": 33.26923076923077,
+            "children": [
+              {
+                "id": "55bba7dfcccbebca",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "handbook/notes.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "1a2564788438ce78",
+            "type": "tabs",
+            "dimension": 66.73076923076923,
+            "children": [
+              {
+                "id": "d8b28cede89cbcba",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1908d4bc9c73df33",
+    "type": "split",
+    "children": [
+      {
+        "id": "90d5d956618332c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e27afe9de14db4b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "66780723de32a95b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#ChaChaLV",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "96b6bc2b02da3edd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "71d29d6bf3adf11a",
+    "type": "split",
+    "children": [
+      {
+        "id": "ec6fda1581764a76",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "580053363f3b78a5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "handbook/note_01.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7fa4a6fd088b062a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "handbook/note_01.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7eff436aceef55b1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "799735b43057fd69",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "handbook/note_01.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "4f79ed71d746c6d0",
+  "lastOpenFiles": [
+    "mod/__pycache__/show.cpython-312.pyc",
+    "mod/show.py",
+    "mod/__pycache__/Connect.cpython-312.pyc.1536641238960",
+    "mod/__pycache__/Connect.cpython-312.pyc",
+    "mod/Connect.py",
+    "mod/__pycache__/query.cpython-312.pyc",
+    "mod/__pycache__",
+    "mod/query.py",
+    "handbook/technical_task.md",
+    "mod/__pycache__/help.cpython-312.pyc",
+    "mod/help.py",
+    "handbook/notes.md",
+    "#шаблоны/Вера commit.md",
+    "README.md",
+    "handbook/note_02.md",
+    "handbook/note_01.md",
+    "handbook/contacts.md",
+    "#шаблоны/Дима commot.md",
+    "#шаблоны",
+    "handbook/handbook.md",
+    "Pasted image 20240324215434.png"
+  ]
+}
