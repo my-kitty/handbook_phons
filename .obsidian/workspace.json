@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "handbook/note_01.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "handbook/note_01.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "handbook/note_01.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "handbook/note_01.md"
+                "file": "README.md"
               }
             }
           }
@@ -189,6 +189,7 @@
   },
   "active": "4f79ed71d746c6d0",
   "lastOpenFiles": [
+    "handbook/note_01.md",
     "mod/__pycache__/show.cpython-312.pyc",
     "mod/show.py",
     "mod/__pycache__/Connect.cpython-312.pyc.1536641238960",
@@ -204,10 +205,8 @@
     "#шаблоны/Вера commit.md",
     "README.md",
     "handbook/note_02.md",
-    "handbook/note_01.md",
     "handbook/contacts.md",
     "#шаблоны/Дима commot.md",
-    "#шаблоны",
     "handbook/handbook.md",
     "Pasted image 20240324215434.png"
   ]
