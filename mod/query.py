@@ -25,14 +25,14 @@ comend = {
 		"/сhange": "Запускать функцию"
 	}
 
-print(type(comend["/help"]))
+# print(type(comend["/help"]))
 
 
 def query_progect(input_humen):
 	
 	if(isinstance(comend[input_humen],types.FunctionType)): # ЕСЛИ функция
 			return comend[input_humen]() 							# Выхываем эту функцию
-	elif type(comend[input_humen]) == str:
+	elif type(comend[input_humen]) == str or type(comend[input_humen]) == bool:
 		if input_humen in comend.keys():
 			return comend[input_humen]
 	
