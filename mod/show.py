@@ -39,7 +39,6 @@ def show():
 		elif params in value.keys() and type(value[params]) == str:
 			string += f"\t{value[params]} \n"
 			return string
-		# Логическая ошибка в файле query.py
 		# else: 
 		# 	print(value)
 		# 	return "False"
