@@ -7,8 +7,9 @@ import mod.query as query
 
 comend = "/help"
 while True:
-	if query.query_progect(comend) == False: break
-	print(query.query_progect(comend))
+	funtipn_commend = query.query_progect(comend)
+	if funtipn_commend == False: break
+	print(funtipn_commend)
 	comend = input("	Введите комманду: ")
 
     
