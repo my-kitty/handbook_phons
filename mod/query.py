@@ -13,16 +13,7 @@ help = """
 	/show -> Вывести базу номеров
 	------------------------------------------
 """
-add_params = {
-	"comend" : "/add",
-	"status" : "Работает на 30%",
-	"help" : "Команда добовляек новый контакт ...",
-	"patams": {
-		0: "Error: такого не может быть",
-		1: "Пораметры не введены",
-		2: "1 и более пораметров"
-	}
-}
+
 
 # Словарь комманд и функций
 comend = {
@@ -36,7 +27,6 @@ comend = {
 		"/test": "Используется для тестов",
 
 		#В процесе разработки модернизации
-		"/add naw": "Да",
 
 		#Для выявления ошибок /error
 		"/error" : "Тут ошибка",
@@ -52,16 +42,18 @@ comend = {
 # из словаря любая вызываема функция должна возращать строку
 def query_progect(input_humen):
 
-	#Если команда существует
-	if not(input_humen in comend.keys()): 
-		return comend["/error_not_comend"]
+	
 
 	# Если команда болье чем из одного слова
 	comend_strong = input_humen.split()
 	if len(comend_strong) > 1: 
-
-		return len(comend_strong),add_params
-
+		if comend_strong[0] in comend.keys():
+			return comend[comend_strong[0]](comend_strong)
+	
+	#Если команда существует
+	if not(input_humen in comend.keys()): 
+		return comend["/error_not_comend"]
+		
 	# ЕСЛИ функция
 	if(isinstance(comend[input_humen], types.FunctionType)): 
 			return comend[input_humen]()
