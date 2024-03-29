@@ -49,9 +49,9 @@ def show():
 	for key, value in phonebook.items():
 		string_connect += f"\n\t{key} \n\t{hr}\n"
 		
-		string_connect += if_show("phones")
-		string_connect += if_show("email")
-		string_connect += if_show("birthday")
+		string_connect += if_show("-ph")
+		string_connect += if_show("-e")
+		string_connect += if_show("-b")
 		
 
 	return string_connect
