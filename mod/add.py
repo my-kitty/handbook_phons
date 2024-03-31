@@ -1,4 +1,5 @@
 import mod.Connect as connect
+import mod.all_function as conact_strong
 
 # /add -name Дмитрий Алёхин -ph +7(924) 345 19-95, +7(924) 345 19-96 -e dimedrol@gmail.com -b 30.04.1995
 # /add -name Дмитрий Алёхин -ph +7(924) 345 19-96 -e dimedrol@gmail.com -b 30.04.1995
@@ -31,53 +32,12 @@ add_console = {
 
 	"add_good": "\tКонтакт успешно добавлен\n\t------------------------------------------\n"
 }
-
-
-
-
-def add_conact_strong(list_params):
-	# list_params это введёная строка(Команда) в види list
-
-	mandatory_params = [i for i in mask_is_base if mask_is_base[i]["mandatory"] == True] # mandatory_params Возращает обязательные пораметры Например ["-name", "-ph"]
-	name_params = [i for i in mask_is_base] # Список имён пораметров Например ['-name', '-ph', '-e', '-b']
-	
-	name_params_type_in_list = [i for i in mask_is_base if mask_is_base[i]["tupe"] == list ] # Имя параметра
-
-	if set(mandatory_params).issubset(list_params):
-
-		list_params.remove(list_params[0]) # Удаляет первый элемент из списка
-		contact_list = {kay:"" for kay in name_params} # Формирует contact_list Например: { "-name":"", "-ph":"", "-e":"", 	"-b":"" }
-		connect_params = False
-
-		for i in list_params:
-			if i in contact_list: connect_params = i; continue
-			contact_list[connect_params] += i + " "
-			
-		for i in contact_list: contact_list[i] = contact_list[i].strip() # Уберает все пробел в начале и конце строки
-
-		for i in name_params_type_in_list: # если пораметр list сделать contact_list list
-			contact_list[i] = contact_list[i].split(",")
-			contact_list[i] = [j.strip() for j in contact_list[i]]
-
-		return contact_list
 	
 
-	else: False
-	
 
-def print_dict(t):
-	print("\n{")
-	for key, value in t.items():
-		print("{0}: {1}".format(key,value))
-	print("}\n")
 
 def error_add_params(contact_list):
 	unique_params = [kay for kay in contact_list if mask_is_base[kay]["unique"]]
-	# print(unique_params)
-
-	# print_dict(mask_is_base)
-	# print_dict(phonebook)
-	# print_dict(contact_list)
 
 	for kay in phonebook:
 		if contact_list[unique_params[0]] == kay: 
@@ -112,7 +72,7 @@ def add_contact(list_params = False):
 		return add_status[list_params[1]]
 	
 	
-	contact_list = add_conact_strong(list_params) # Преобразованый список	
+	contact_list = conact_strong.conact_strong(list_params) # Преобразованый список	all_function.py
 	contact_exists = error_add_params(contact_list)
 
 	if contact_exists != False: 

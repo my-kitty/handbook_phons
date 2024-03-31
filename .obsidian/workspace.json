@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки сегодня.md",
+                "file": "#шаблоны/Вера commit.md",
                 "mode": "source",
                 "source": false
               }
@@ -41,7 +41,7 @@
           {
             "id": "ea141d4f03addfd4",
             "type": "tabs",
-            "dimension": 48.26923076923076,
+            "dimension": 68.07692307692308,
             "children": [
               {
                 "id": "55bba7dfcccbebca",
@@ -60,7 +60,7 @@
           {
             "id": "1a2564788438ce78",
             "type": "tabs",
-            "dimension": 51.73076923076924,
+            "dimension": 31.92307692307692,
             "children": [
               {
                 "id": "d8b28cede89cbcba",
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки сегодня.md",
+                "file": "#шаблоны/Вера commit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки сегодня.md",
+                "file": "#шаблоны/Вера commit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки сегодня.md"
+                "file": "#шаблоны/Вера commit.md"
               }
             }
           }
@@ -202,21 +202,21 @@
   },
   "active": "6ddd94e5ffd35e70",
   "lastOpenFiles": [
+    "#шаблоны/Дима commot.md",
+    "handbook/contacts.md",
+    "handbook/note_01.md",
+    "handbook/note_02.md",
+    "handbook/notes.md",
     "handbook/technical_task.md",
     "Заметки сегодня.md",
+    "README.md",
     "mod/__pycache__/add.cpython-312.pyc",
     "mod/add.py",
     "mod/edit.py",
     "mod/save.py",
     "save.py",
     "mod/storage",
-    "README.md",
-    "handbook/contacts.md",
-    "handbook/note_02.md",
-    "handbook/note_01.md",
-    "handbook/notes.md",
     "#шаблоны/Вера commit.md",
-    "#шаблоны/Дима commot.md",
     "mod/__pycache__/show.cpython-312.pyc",
     "mod/show.py",
     "mod/__pycache__/Connect.cpython-312.pyc.1536641238960",

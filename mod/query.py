@@ -2,6 +2,7 @@ import types
 
 import mod.show as show
 import mod.add as add
+import mod.edit as edit
 
 help = """
 
@@ -9,8 +10,12 @@ help = """
 	------------------------------------------
 
 	/help -> Справочник по программе
-	/stop -> Завершение рабоы программы
+	/stop -> Завершение работы программы
 	/show -> Вывести базу номеров
+	/add ->  Добавить новый контакт /add or /add [params]
+		 Справочник команды /add help
+	/edit -> Редактирывание контакта
+
 	------------------------------------------
 """
 
@@ -19,14 +24,14 @@ help = """
 comend = {
 		"/stop": False,
 		"/help": help,
-		"/show": show.show,
-		"/add": add.add_contact,
-		"/edit": "Редактирывание",
+		"/show": show.show, #Чтение
+		"/add": add.add_contact, #Добовление
+		"/edit": edit.edit_connand, #Редактирывание
+		"/delete" : "Удаление", # Удаление контакта
 		"/save":"сохранить",
-		"/сhange": "Запускать функцию",
 		"/test": "Используется для тестов",
 
-		#Для выявления ошибок /error
+		#Для отладки /error
 		"/error" : "Тут ошибка",
 		"/error_not_comend" : "Такой команды нету воспользуйтесь справочником команда /help",
 		"/error_fotal_comand" : "FOTAL Ошибка: Команда не предусмотренна",
